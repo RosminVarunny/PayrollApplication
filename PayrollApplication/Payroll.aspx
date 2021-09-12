@@ -69,7 +69,7 @@
                             <asp:BoundField Visible="false" DataField="AutoID" />
                             <asp:BoundField Visible="false" DataField="Month" />
                             <asp:BoundField Visible="false" DataField="Year" />
-                            <asp:HyperLinkField ItemStyle-CssClass="grdItem" HeaderStyle-CssClass="grdHdr" DataNavigateUrlFields="Name, Code, TotalSalary, BasicSalary, Housing,Transport,tax,Month,Year" DataNavigateUrlFormatString="PaySlipReport.aspx?Name={0}&Code={1}&TotalAmt={2}&Basic={3}&Housing={4}&Transport={5}&Tax={6}&Month={7}&Year={8}" Text="PaySlip" />
+                            <asp:HyperLinkField ItemStyle-CssClass="grdItem" Target="_blank" HeaderStyle-CssClass="grdHdr" DataNavigateUrlFields="Name, Code, TotalSalary, BasicSalary, Housing,Transport,tax,Month,Year" DataNavigateUrlFormatString="PaySlipReport.aspx?Name={0}&Code={1}&TotalAmt={2}&Basic={3}&Housing={4}&Transport={5}&Tax={6}&Month={7}&Year={8}" Text="PaySlip" />
 
                         </Columns>
                     </asp:GridView>
